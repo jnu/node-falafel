@@ -1,4 +1,5 @@
-var parse = require('acorn').parse;
+var acorn = require('acorn-jsx/inject')(require('acorn'));
+var parse = acorn.parse;
 
 var objectKeys = Object.keys || function (obj) {
     var keys = [];

@@ -23,7 +23,8 @@
     "test": "node --harmony test/bin/run.js test/*.js"
   },
   "dependencies": {
-    "acorn": "^1.0.3"
+    "acorn": "^1.0.3",
+    "acorn-jsx": "^1.0.2"
   },
   "devDependencies": {
     "tape": "^4.0.0"
