@@ -71,6 +71,8 @@ Instead of passing a `src` you can also use `opts.source`.
 All of the `opts` will be passed directly to
 [acorn](https://npmjs.org/package/acorn).
 
+In addition, `jsx` is supported with [acorn-jsx](https://www.npmjs.com/package/acorn-jsx). To enable this, use the `plugins: { jsx: true }` option.
+
 # nodes
 
 Aside from the regular [esprima](http://esprima.org) data, you can also call
